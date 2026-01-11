@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Recipe - 香哈 Xiangha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo-container">
+                <div class="logo">香哈</div>
+            </div>
+            <div class="nav-container">
+                <nav class="main-nav">
+                    <a href="index.html">About Us</a>
+                    <a href="foodreviews.html">Food Reviews</a>
+                    <a href="pizzadetails.html">Food Guides</a>
+                    <a href="create-recipe.html" class="active">Recipes</a>
+                    <a href="#">Travel</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="#" class="favorite-link"><span class="heart-icon">♡</span> My Favorites</a>
+                </nav>
+                <div class="user-actions">
+                    <a href="#">Account</a>
+                    <div class="avatar-placeholder"></div>
+                    <a href="profile.html" class="btn-personal">Personal</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="">
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 发布表单区域 -->
+        <div class="create-recipe-container">
+            <h1 class="page-title">Share Your Recipe</h1>
+            
+            <form class="recipe-form">
+                <!-- 封面上传 -->
+                <div class="form-section upload-section">
+                    <div class="cover-upload-box">
+                        <div class="upload-placeholder">
+                            <span class="upload-icon">📷</span>
+                            <span class="upload-text">Upload Cover Photo</span>
+                            <span class="upload-hint">Supports JPG, PNG (Max 5MB)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 基础信息 -->
+                <div class="form-section basic-info">
+                    <div class="form-group">
+                        <label>Recipe Title</label>
+                        <input type="text" class="form-input large-input" placeholder="e.g. Grandma's Secret Apple Pie">
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea class="form-input" rows="4" placeholder="Tell us the story behind this dish..."></textarea>
+                    </div>
+                </div>
+
+                <!-- 详细参数 -->
+                <div class="form-section meta-info">
+                    <div class="form-row">
+                        <div class="form-group col-3">
+                            <label>Time</label>
+                            <select class="form-input">
+                                <option>15 min</option>
+                                <option>30 min</option>
+                                <option>45 min</option>
+                                <option>1 hour</option>
+                                <option>1.5 hours+</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-3">
+                            <label>Difficulty</label>
+                            <select class="form-input">
+                                <option>Easy</option>
+                                <option>Medium</option>
+                                <option>Hard</option>
+                                <option>Chef Level</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-3">
+                            <label>Servings</label>
+                            <select class="form-input">
+                                <option>1 person</option>
+                                <option>2 people</option>
+                                <option>4 people</option>
+                                <option>Family size</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 食材清单 -->
+                <div class="form-section ingredients-form">
+                    <h2 class="section-label">Ingredients</h2>
+                    <div class="ingredients-list">
+                        <div class="ingredient-row">
+                            <input type="text" class="form-input ing-name-input" placeholder="Ingredient name (e.g. Flour)">
+                            <input type="text" class="form-input ing-qty-input" placeholder="Quantity (e.g. 500g)">
+                            <span class="remove-row">×</span>
+                        </div>
+                        <div class="ingredient-row">
+                            <input type="text" class="form-input ing-name-input" placeholder="Ingredient name">
+                            <input type="text" class="form-input ing-qty-input" placeholder="Quantity">
+                            <span class="remove-row">×</span>
+                        </div>
+                        <div class="ingredient-row">
+                            <input type="text" class="form-input ing-name-input" placeholder="Ingredient name">
+                            <input type="text" class="form-input ing-qty-input" placeholder="Quantity">
+                            <span class="remove-row">×</span>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-add-row">+ Add Ingredient</button>
+                </div>
+
+                <!-- 制作步骤 -->
+                <div class="form-section steps-form">
+                    <h2 class="section-label">Steps</h2>
+                    
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <textarea class="form-input" rows="3" placeholder="Describe step 1..."></textarea>
+                            <div class="step-upload-small">
+                                <span>+ Add Photo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <textarea class="form-input" rows="3" placeholder="Describe step 2..."></textarea>
+                            <div class="step-upload-small">
+                                <span>+ Add Photo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <textarea class="form-input" rows="3" placeholder="Describe step 3..."></textarea>
+                            <div class="step-upload-small">
+                                <span>+ Add Photo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn-add-row">+ Add Step</button>
+                </div>
+
+                <!-- 底部按钮 -->
+                <div class="form-actions">
+                    <button type="button" class="btn-submit">Publish Recipe</button>
+                    <button type="button" class="btn-draft">Save Draft</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer-wrapper dark-footer">
+        <div class="container">
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo">Latest news</div>
+                    <div class="social-icons">
+                        <span>f</span>
+                        <span>t</span>
+                        <span>in</span>
+                    </div>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Taylor | University | Travelers | Space Design 5.0 | No 30075033
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
