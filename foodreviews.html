@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Reviews - 香哈 Xiangha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo-container">
+                <div class="logo">香哈</div>
+            </div>
+            <div class="nav-container">
+                <nav class="main-nav">
+                    <a href="index.html">About Us</a>
+                    <a href="foodreviews.html" class="active">Food Reviews</a>
+                    <a href="pizzadetails.html">Food Guides</a>
+                    <a href="create-recipe.html">Recipes</a>
+                    <a href="#">Travel</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="#" class="favorite-link"><span class="heart-icon">♡</span> My Favorites</a>
+                </nav>
+                <div class="user-actions">
+                    <a href="#">Account</a>
+                    <div class="avatar-placeholder"></div>
+                    <a href="profile.html" class="btn-personal">Personal</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="">
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Recommended food -->
+        <section class="review-section">
+            <h2 class="center-heading">Recommended food</h2>
+            <div class="recommended-slider">
+                <div class="slider-image-container">
+                    <img src="images/review-banner.jpg" alt="Pizza" class="placeholder-img full-width-img">
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active-brown"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home cooked food -->
+        <section class="review-section">
+            <h2 class="center-heading">Home cooked food</h2>
+            <div class="food-grid circle-grid">
+                <div class="food-item">
+                    <div class="food-img-circle">
+                        <img src="images/food-curry.jpg" alt="Chicken curry" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Chicken curry</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item">
+                    <div class="food-img-circle">
+                        <img src="images/food-beef.jpg" alt="Stewed beef with tomato" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Stewed beef with tomato</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item">
+                    <div class="food-img-circle">
+                        <img src="images/food-veg.jpg" alt="Fried seasonal vegetables" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Fried seasonal vegetables</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Western food -->
+        <section class="review-section">
+            <h2 class="center-heading">Western food</h2>
+            <div class="food-grid card-grid">
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/food-steak.jpg" alt="Beef Steak" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Beef Steak</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/food-pizza-sq.jpg" alt="Margherita Pizza" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Margherita Pizza</h3>
+                    <a href="pizzadetails.html" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/food-paella.jpg" alt="Seafood Paella" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Seafood Paella</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soup -->
+        <section class="review-section">
+            <h2 class="center-heading">Soup</h2>
+            <div class="food-grid card-grid">
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/soup-clam.jpg" alt="Clam Chowder" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Clam Chowder</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/soup-minestrone.jpg" alt="Minestrone Soup" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Minestrone Soup</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/soup-mushroom.jpg" alt="Cream of Mushroom Soup" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Cream of Mushroom Soup</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dessert -->
+        <section class="review-section">
+            <h2 class="center-heading">Dessert</h2>
+            <div class="food-grid card-grid">
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/dessert-cake.jpg" alt="Cheese cake" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Cheese cake</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/dessert-tiramisu.jpg" alt="Tiramisu" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Tiramisu</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+                <div class="food-item-card">
+                    <div class="card-img-box">
+                        <img src="images/dessert-pudding.jpg" alt="Shuang Pi Nai" class="placeholder-img">
+                    </div>
+                    <h3 class="food-title">Shuang Pi Nai</h3>
+                    <a href="#" class="read-more-small">Read more</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <!-- 全宽深色页脚 -->
+    <div class="footer-wrapper dark-footer">
+        <div class="container">
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo">Latest news</div>
+                    <div class="social-icons">
+                        <span>f</span>
+                        <span>t</span>
+                        <span>in</span>
+                    </div>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Taylor | University | Travelers | Space Design 5.0 | No 30075033
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

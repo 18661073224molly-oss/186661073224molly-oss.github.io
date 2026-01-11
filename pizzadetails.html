@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margherita Pizza - 香哈 Xiangha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo-container">
+                <div class="logo">香哈</div>
+            </div>
+            <div class="nav-container">
+                <nav class="main-nav">
+                    <a href="index.html">About Us</a>
+                    <a href="foodreviews.html">Food Reviews</a>
+                    <a href="pizzadetails.html" class="active">Food Guides</a>
+                    <a href="create-recipe.html">Recipes</a>
+                    <a href="#">Travel</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="#" class="favorite-link"><span class="heart-icon">♡</span> My Favorites</a>
+                </nav>
+                <div class="user-actions">
+                    <a href="#">Account</a>
+                    <div class="avatar-placeholder"></div>
+                    <a href="profile.html" class="btn-personal">Personal</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="">
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Margherita Pizza Header & Slider -->
+        <section class="detail-header">
+            <h1 class="center-heading">Margherita Pizza</h1>
+            <div class="recommended-slider">
+                <div class="slider-image-container">
+                    <img src="images/pizza1.jpg" alt="Margherita Pizza" class="placeholder-img full-width-img">
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active-brown"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dish Introduction -->
+        <section class="intro-section">
+            <h2 class="section-title">Dish Introduction</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p class="description">Pizza (Italian: Pizza) is a typical Italian dish made from fermented round bread with tomato sauce, cheese and other toppings and baked in the oven. Cheese is usually mozzarella cheese or a mixture of several cheeses...</p>
+                    <p class="description">In 1889, King Umberto I and Queen Margherita of Italy visited Naples. Local chef Raffaele Esposito created a pizza named after the Queen, using tomatoes, mozzarella cheese and basil to show the colors of the Italian flag. The Queen loved it very much, and this pizza became famous.</p>
+                </div>
+                <div class="intro-video">
+                    <video src="video/v.mp4" controls poster="images/pizza-video-thumb.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;"></video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ingredients -->
+        <section class="ingredients-section">
+            <h2 class="center-heading">Ingredients</h2>
+            <div class="ingredients-grid">
+                <!-- Row 1 -->
+                <div class="ingredient-item">
+                    <img src="images/step-1-dough.jpg" class="ing-img-box" alt="Flour">
+                    <div class="ing-name">Flour</div>
+                    <div class="ing-weight">150g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/step-2-rise.jpg" class="ing-img-box" alt="Water">
+                    <div class="ing-name">Water</div>
+                    <div class="ing-weight">90g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/step-1-dough.jpg" class="ing-img-box" alt="Yeast">
+                    <div class="ing-name">Yeast</div>
+                    <div class="ing-weight">2g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/prod-salt.jpg" class="ing-img-box" alt="Salt">
+                    <div class="ing-name">Salt</div>
+                    <div class="ing-weight">3g</div>
+                </div>
+                <!-- Row 2 -->
+                <div class="ingredient-item">
+                    <img src="images/fanqie.jpg" class="ing-img-box" alt="Cherry tomatoes">
+                    <div class="ing-name">Cherry tomatoes</div>
+                    <div class="ing-weight">100g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/nailao.jpg" class="ing-img-box" alt="Mozzarella cheese">
+                    <div class="ing-name">Mozzarella cheese</div>
+                    <div class="ing-weight">120g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/prod-oil.jpg" class="ing-img-box" alt="Olive oil">
+                    <div class="ing-name">Olive oil</div>
+                    <div class="ing-weight">10g</div>
+                </div>
+                <div class="ingredient-item">
+                    <img src="images/ouqin.jpg" class="ing-img-box" alt="Parsley leaves">
+                    <div class="ing-name">Parsley leaves</div>
+                    <div class="ing-weight">2 pieces</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practice Introduction -->
+        <section class="practice-section">
+            <h2 class="center-heading">Practice Introduction</h2>
+            <div class="practice-list">
+                <!-- Step 1 -->
+                <div class="practice-item">
+                    <div class="practice-text">
+                        <h3 class="step-title">Dough preparation</h3>
+                        <p class="description">Mix the flour, natural yeast, salt and water in the exact proportions. Then knead the dough by hand using techniques such as kneading and stretching to make the dough surface smooth and elastic.</p>
+                    </div>
+                    <div class="practice-img">
+                        <img src="images/step-1-dough.jpg" alt="Step 1" class="placeholder-img">
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="practice-item">
+                    <div class="practice-text">
+                        <h3 class="step-title">Dough fermentation</h3>
+                        <p class="description">Place the kneaded dough in a fermentation box at a room temperature of 26°C and humidity of 75%-80%, and ferment for 8-12 hours. This way, the fermented dough will increase by 50% in size, and it can quickly return to its original shape when pressed.</p>
+                    </div>
+                    <div class="practice-img">
+                        <img src="images/step-2-rise.jpg" alt="Step 2" class="placeholder-img">
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="practice-item">
+                    <div class="practice-text">
+                        <h3 class="step-title">Cake bottom molding</h3>
+                        <p class="description">Use fermented dough balls to form a rolling pin, rolling gently into a disk shape with your fingers. Then throw the dough into the air to rotate it and stretch it to a diameter of about 30-35 cm and a slightly thick edge.</p>
+                    </div>
+                    <div class="practice-img">
+                        <img src="images/step-3-roll.jpg" alt="Step 3" class="placeholder-img">
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="practice-item">
+                    <div class="practice-text">
+                        <h3 class="step-title">Spread and add</h3>
+                        <p class="description">Spread tomato sauce evenly on the base of the pie, spread the surface fully with mozzarella cheese, sprinkle with fresh basil leaves, season well with a little extra virgin olive oil.</p>
+                    </div>
+                    <div class="practice-img">
+                        <img src="images/step-4-sauce.jpg" alt="Step 4" class="placeholder-img">
+                    </div>
+                </div>
+                <!-- Step 5 -->
+                <div class="practice-item">
+                    <div class="practice-text">
+                        <h3 class="step-title">Baking process</h3>
+                        <p class="description">Using a traditional wood-burning oven, the temperature is as high as 400-450°C, baking for 90 seconds to 2 minutes, so that the edges of the cake are quickly scorched, and the interior is soft and elastic.</p>
+                    </div>
+                    <div class="practice-img">
+                        <img src="images/step-5-bake.jpg" alt="Step 5" class="placeholder-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 全宽深色页脚 -->
+    <div class="footer-wrapper dark-footer">
+        <div class="container">
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo">Latest news</div>
+                    <div class="social-icons">
+                        <span>f</span>
+                        <span>t</span>
+                        <span>in</span>
+                    </div>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Taylor | University | Travelers | Space Design 5.0 | No 30075033
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

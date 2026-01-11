@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - 香哈 Xiangha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo-container">
+                <div class="logo">香哈</div>
+            </div>
+            <div class="nav-container">
+                <nav class="main-nav">
+                    <a href="index.html">About Us</a>
+                    <a href="foodreviews.html">Food Reviews</a>
+                    <a href="pizzadetails.html">Food Guides</a>
+                    <a href="create-recipe.html">Recipes</a>
+                    <a href="#">Travel</a>
+                    <a href="shop.html" class="active">Shop</a>
+                    <a href="#" class="favorite-link"><span class="heart-icon">♡</span> My Favorites</a>
+                </nav>
+                <div class="user-actions">
+                    <a href="#">Account</a>
+                    <div class="avatar-placeholder"></div>
+                    <a href="profile.html" class="btn-personal">Personal</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for ingredients, tools...">
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 商城 Hero 区域 -->
+        <section class="shop-hero">
+            <div class="shop-banner">
+                <div class="banner-content">
+                    <h2 class="banner-title">Premium Ingredients<br>& Kitchen Tools</h2>
+                    <p class="banner-desc">Elevate your cooking with our hand-picked selection.</p>
+                    <a href="#" class="btn-shop-now">Explore Now</a>
+                </div>
+                <div class="banner-image">
+                    <!-- 占位图 -->
+                    <img src="images/shop-hero-banner.jpg" alt="Shop Banner" class="placeholder-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- 分类筛选 -->
+        <section class="shop-filter-section">
+            <div class="filter-tabs">
+                <a href="#" class="filter-item active">All Products</a>
+                <a href="#" class="filter-item">Fresh Ingredients</a>
+                <a href="#" class="filter-item">Spices & Sauces</a>
+                <a href="#" class="filter-item">Kitchenware</a>
+                <a href="#" class="filter-item">Tableware</a>
+            </div>
+            <div class="filter-sort">
+                <span>Sort by:</span>
+                <select>
+                    <option>Popular</option>
+                    <option>Newest</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- 商品列表 -->
+        <section class="shop-products-section">
+            <div class="product-grid">
+                
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-oil.jpg" alt="Product" class="placeholder-img">
+                        <span class="badge-new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★★ (24)</div>
+                        <h3 class="product-title">Organic Extra Virgin Olive Oil</h3>
+                        <p class="product-brand">Italian Origin • 500ml</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$28.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-knife.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★☆ (18)</div>
+                        <h3 class="product-title">Professional Chef Knife</h3>
+                        <p class="product-brand">Stainless Steel • 8 inch</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$89.90</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-salt.jpg" alt="Product" class="placeholder-img">
+                        <span class="badge-sale">-20%</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★★ (156)</div>
+                        <h3 class="product-title">Himalayan Pink Salt</h3>
+                        <p class="product-brand">Natural • 200g Grinder</p>
+                        <div class="product-bottom">
+                            <div class="price-box">
+                                <span class="product-price">$8.50</span>
+                                <span class="product-old-price">$10.50</span>
+                            </div>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-dish.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★☆ (42)</div>
+                        <h3 class="product-title">Ceramic Baking Dish</h3>
+                        <p class="product-brand">Oven Safe • White</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$35.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-pesto.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★★ (89)</div>
+                        <h3 class="product-title">Basil Pesto Sauce</h3>
+                        <p class="product-brand">Homemade Style • 180g</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$12.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-pesto.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★★ (12)</div>
+                        <h3 class="product-title">Wooden Pizza Peel</h3>
+                        <p class="product-brand">Acacia Wood • 12 inch</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$45.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-truffle.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★☆ (35)</div>
+                        <h3 class="product-title">Truffle Oil</h3>
+                        <p class="product-brand">Black Truffle • 250ml</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$32.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-img-box">
+                        <img src="images/prod-pesto.jpg" alt="Product" class="placeholder-img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">★★★★★ (67)</div>
+                        <h3 class="product-title">Pasta Maker Machine</h3>
+                        <p class="product-brand">Manual • Stainless Steel</p>
+                        <div class="product-bottom">
+                            <span class="product-price">$120.00</span>
+                            <button class="btn-add-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="pagination">
+                <span class="page-num active">1</span>
+                <span class="page-num">2</span>
+                <span class="page-num">3</span>
+                <span class="page-next">Next ></span>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer-wrapper dark-footer">
+        <div class="container">
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo">Latest news</div>
+                    <div class="social-icons">
+                        <span>f</span>
+                        <span>t</span>
+                        <span>in</span>
+                    </div>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Taylor | University | Travelers | Space Design 5.0 | No 30075033
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
